@@ -11018,6 +11018,12 @@ h5,
     opacity: 1 !important;
 }
 
+@media (max-width: 991.98px) {
+    .ftco-navbar-light .navbar-nav>.nav-item>.nav-link {
+        color: #3B2018 !important;
+    }
+}
+
 .ftco-navbar-light .navbar-nav>.nav-item>.nav-link:hover {
     color: #000;
 }
@@ -11363,7 +11369,7 @@ h5,
 
 .hero-wrap .slider-text h1 {
     font-size: 40px;
-    color: #000;
+    color: #3B2018;
     font-weight: normal;
     font-family: 'Noto Serif TC', 'Prata', serif;
     text-transform: uppercase;
