@@ -11019,7 +11019,7 @@ h5,
 }
 
 @media (max-width: 991.98px) {
-    .ftco-navbar-light .navbar-nav>.nav-item>.nav-link {
+    .ftco-navbar-light:not(.scrolled) .navbar-nav>.nav-item>.nav-link {
         color: #3B2018 !important;
     }
 }
@@ -13198,9 +13198,6 @@ textarea.form-control {
 }
 
 @media (max-width: 991.98px) {
-    .ftco-navbar-light .navbar-nav>.nav-item>.nav-link {
-        color: #3B2018;
-    }
     .ftco-navbar-light {
         background: #f6dfcf88 !important;
         position: fixed;
