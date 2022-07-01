@@ -13326,9 +13326,6 @@ h2.title::after {
     }
 }
 
-img[data-src] {
-    opacity: 0;
-}
 
 /* Social Media Icons */
 .social-media-list {
