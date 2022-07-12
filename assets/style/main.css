@@ -13331,19 +13331,20 @@ h2.title::after {
 
 
 /* Social Media Icons */
+
 .social-media-list {
     position: relative;
     font-size: 2.3rem;
     text-align: center;
     width: 100%;
-  }
-  
-  .social-media-list li a {
-    color: #fff;
+}
+
+.social-media-list li a {
+    color: #d19d59;
     font-size: 25px;
-  }
-  
-  .social-media-list li {
+}
+
+.social-media-list li {
     position: relative;
     top: 0;
     left: -20px;
@@ -13355,38 +13356,29 @@ h2.title::after {
     width: 50px;
     margin: 10px auto;
     border-radius: 50%;
-    color: #fff;
-    background-color: #755954;
+    background-color: #fdecdb;
+    box-shadow: 1px 1px 3px #cf9953;
     cursor: pointer;
+    transform: scale(1);
     transition: all .2s ease-in-out;
-  }
-  
-  .social-media-list li:after {
+}
+
+.social-media-list li:after {
     content: '';
     position: absolute;
-    top: 0;
     left: 0;
-    width: 50px;
-    height: 50px;
+    right: 0;
+    margin: 0 auto;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
-    opacity: 0;
-    box-shadow: 0 0 0 1px #fff;
+    box-shadow: 0 0 0 1px #e1bb8f;
     transition: all .2s ease-in-out;
-    z-index: -1;
-  }
-  
-  .social-media-list li:hover {
-    background-color: #fff; 
-  }
-  
-  .social-media-list li:hover:after {
-    opacity: 1;  
-    transform: scale(1.12);
-    transition-timing-function: cubic-bezier(0.37,0.74,0.15,1.65);
-  }
-  
-  .social-media-list li:hover a {
-    color: #755954;
+    z-index: 10;
+}
+
+.social-media-list li:hover {
+    transform: scale(1.1);
 }
 
 h2.contactTitle {
@@ -13496,4 +13488,16 @@ h2.contactTitle {
 .scrollTop:hover,
 .scrollTop:focus {
     color: #fff !important;
+}
+
+#contact a {
+    color: #745757;
+}
+
+#product {
+    background-color: #fdecdb;
+}
+
+.ytp-button.ytp-fullscreen-button {
+    display: none !important;
 }
