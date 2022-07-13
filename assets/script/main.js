@@ -248,4 +248,8 @@ $(scrollTop).on('click', function (e) {
     return false;
 });
 
+var video = document.querySelector('video');
+video.muted = true;
+video.play();
+
  })(jQuery);
